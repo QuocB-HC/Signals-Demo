@@ -1,0 +1,21 @@
+<div class="counter-container">
+    <div class="counter-box">
+        <h1>{{conditionalCounter()}}</h1>
+        <h1>{{conditionalDoubleCounter()}}</h1>
+    </div>
+
+    <br>
+
+    <div class="counter-buttons">
+        <button (click)="Increment()">Increment</button>
+        <button (click)="Reset()">Reset</button>
+        <button (click)="Decrement()">Decrement</button>
+    </div>
+
+    <br>
+
+    <div class="counter-buttons">
+        <button (click)="ToggleCounter()">Counter</button>
+        <button (click)="ToggleDoubleCounter()">Double Counter</button>
+    </div>
+</div>
