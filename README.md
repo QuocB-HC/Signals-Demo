@@ -12,6 +12,9 @@ Dự án này là một demo đơn giản về cách sử dụng **Signals** tro
 - Angular
 - Typescript
 
+## Đóng Góp
+Nếu bạn muốn đóng góp, hãy tạo một pull request hoặc mở issue mới.
+
 ## Cài Đặt và Chạy Dự Án
 
 ### Yêu Cầu Hệ Thống
@@ -19,12 +22,17 @@ Dự án này là một demo đơn giản về cách sử dụng **Signals** tro
 - Angular CLI 16+
 - Trình duyệt như Chrome, Edge hoặc Firefox
 
-## Đóng Góp
-Nếu bạn muốn đóng góp, hãy tạo một pull request hoặc mở issue mới.
-
 ### Cài Đặt
+Clone Repository
 ```sh
 git clone https://github.com/QuocB-HC/Signals-Demo.git
 cd Signals-Demo
+```
+Cài Đặt Dependencies
+```sh
 npm install
+```
+Chạy Dự Án
+```sh
 ng serve
+```
